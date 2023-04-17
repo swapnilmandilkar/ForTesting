@@ -5,7 +5,7 @@
       <attribute ID="Firstname" sfwCaption="Firstname" sfwDataType="string" sfwIsNull="True" sfwKeyNo="0" sfwValue="FirstName" sfwLength="250" sfwDBDataType="varchar" />
       <attribute ID="Lastname" sfwCaption="Lastname" sfwDataType="string" sfwIsNull="True" sfwKeyNo="0" sfwValue="LastName" sfwLength="250" sfwDBDataType="varchar" />
       <attribute ID="Dateofbirth" sfwCaption="Dateofbirth" sfwDataType="datetime" sfwIsNull="True" sfwKeyNo="0" sfwValue="DateOfBirth" sfwDBDataType="datetime" />
-      <attribute ID="Gender" sfwCaption="Gender" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="Gender" sfwCodeID="12" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
+      <attribute ID="Gender" sfwCaption="GenderTest" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="Gender" sfwCodeID="12" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
       <attribute ID="MaritalStatus" sfwCaption="Maritalstatus" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="MaritalStatus" sfwCodeID="40000002" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
       <attribute ID="CommPref" sfwCaption="Commpref" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="CommPref" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
     </column>
