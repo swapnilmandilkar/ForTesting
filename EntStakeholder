@@ -1,0 +1,42 @@
+<entity sfwActive="True" sfwStatus="Review" sfwVersion="7.0" CreateWithClass="False" ID="entStakeholder" sfwTableName="SGT_STAKEHOLDER" sfwSchemaName="Organization">
+  <attributes>
+    <column>
+      <attribute ID="StakeholderId" sfwValue="STAKEHOLDER_ID" sfwDBDataType="int" sfwKeyNo="1" sfwIsIdentity="True" sfwDataType="int" sfwIsNull="False" sfwCaption="ID" sfwLength="10,0" />
+      <attribute ID="Firstname" sfwCaption="Firstname" sfwDataType="string" sfwIsNull="True" sfwKeyNo="0" sfwValue="FirstName" sfwLength="250" sfwDBDataType="varchar" Text="FirstName" />
+      <attribute ID="Lastname" sfwCaption="Lastname" sfwDataType="string" sfwIsNull="True" sfwKeyNo="0" sfwValue="LastName" sfwLength="250" sfwDBDataType="varchar" />
+      <attribute ID="Dateofbirth" sfwCaption="Dateofbirth" sfwDataType="datetime" sfwIsNull="True" sfwKeyNo="0" sfwValue="DateOfBirth" sfwDBDataType="datetime" />
+      <attribute ID="Gender" sfwCaption="Gender" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="Gender" sfwCodeID="12" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
+      <attribute ID="MaritalStatus" sfwCaption="Maritalstatus" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="MaritalStatus" sfwCodeID="40000002" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
+      <attribute ID="MaritalStatus" sfwCaption="Maritalstatus" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="MaritalStatus" sfwCodeID="40000002" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" Text="Status" />
+      <attribute ID="CommPref" sfwCaption="Commpref" sfwDataType="PickList" sfwIsNull="True" sfwKeyNo="0" sfwValue="CommPref" sfwLength="4" sfwDBDataType="varchar" sfwUDT="UDT_CODE_VALUE" />
+    </column>
+    <object />
+    <collection />
+    <property />
+    <calculatedfields />
+  </attributes>
+  <queries />
+  <delete />
+  <grouplist />
+  <groups />
+  <checklist />
+  <methods />
+  <conditions>
+    <expressioncondition />
+    <rulecondition />
+  </conditions>
+  <constraints>
+    <softconstraints />
+    <hardconstraints />
+    <deleteconstraints />
+    <fieldconstraints />
+  </constraints>
+  <lifecycle />
+  <ExtraFields />
+  <foreignkeys />
+  <indexes>
+    <index indexname="PK_SGT_STAKEHOLDER_STAKEHOLDER_ID" schemaname="Organization" tablename="SGT_STAKEHOLDER" type="CLUSTERED" Columns="STAKEHOLDER_ID - ASC">
+      <column name="STAKEHOLDER_ID" order="ASC" />
+    </index>
+  </indexes>
+</entity>
